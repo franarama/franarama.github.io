@@ -144,18 +144,23 @@ a {
   padding-top: 150px;
   padding-bottom: 150px; }
 
-.download-section {
+.download-section,
+.contact-section {
   color: white;
-  background: url("../img/me.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+}
 
-#map {
-  width: 100%;
-  height: 300px; }
+.download-section {
+  background: url("../img/me.jpg") no-repeat center center scroll;
+}
+
+.contact-section {
+  background: url("../img/contact-bg.jpg") no-repeat center center scroll;
+}
 
 @media (min-width: 992px) {
   .content-section {
